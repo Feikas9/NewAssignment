@@ -50,3 +50,36 @@
             max-width:150px;
             margin:5px;
         }
+
+        /* Dark mode styles */
+
+        .dark-mode {
+            background-color: #121212;
+            color: #e0e0e0;
+        }
+
+        .dark-mode nav {
+            background-color: #000;
+        }
+
+        .dark-mode a {
+            color: #ffffff;
+        }
+
+        /* Toggle button */
+
+        .toggle-btn {
+            position: absolute;
+            right: 20px;
+            top: 10px;
+            padding: 8px 15px;
+            border: none;
+            background: #555;
+            color: white;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+
+        .toggle-btn:hover {
+            background: #777;
+        }
